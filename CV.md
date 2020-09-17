@@ -1,11 +1,11 @@
-# Elena Shashina 
+# Elena Shashina
 
-**Junior Frontend Developer/Intern**
+**Junior Frontend Developer/Intern**\
 
 Birth: 17.08.1980\
 +7 960 565 34 19\
 elvehnn@yandex.ru\
-github account: https://github.com/Elvehnn
+Аккаунт на GitHub: [https://github.com/Elvehnn/](https://github.com/Elvehnn/)
 
 ## Purpose
 
@@ -16,7 +16,7 @@ Looking for an entry-level position in a company to improve my skills and help w
 **Politech, Ryazan | 2004 – 2020**. Head of design and prepress Department for 3 years. About 15 years of experience developing designs for print media.\
 Good team player, as well as solo design task performer who is committed to delivering top results on time. Diligence for keeping clients satisfied with each project. \
 Have got an experience in creating presentations, infographics, developing technological instructions, and copywriting.\
-[Portfolio on Behance](Behance.net/elvehnnd813) 
+[Portfolio on Behance](Behance.net/elvehnnd813)
 
 ## Skills
 
