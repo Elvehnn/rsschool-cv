@@ -26,6 +26,8 @@ Have got an experience in creating presentations, infographics, developing techn
 * Able to quite quickly learn new skills, technologies and applications.
 * Able to analyze tasks, perform decomposition, organize execution, allocate resources and make urgent decisions.
 
+## Projects
+
 ## Education
 
 *CAD engineer (2003)*\
