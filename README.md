@@ -1,1 +1,1 @@
-https://elvehnn.github.io/rsschool-cv/CV.md
+https://elvehnn.github.io/rsschool-cv/CV
