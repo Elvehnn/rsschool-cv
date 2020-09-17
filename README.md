@@ -1,1 +1,1 @@
-# rsschool-cv
+https://elvehnn.github.io/rsschool-cv/CV
