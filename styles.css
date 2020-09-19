@@ -12,9 +12,9 @@ html, body {
 	display: block;
 }
 
-.fixed_container, .central_container {
+.fixed_container {
 	overflow: hidden;
-	
+
 }
 
 .black_sidebar {
@@ -75,8 +75,6 @@ h2 {
 	line-height: 1.5;
 	margin: 5px;
 }
-
-
 
 .items_grey {
 	color:  rgb(70,70,70);
