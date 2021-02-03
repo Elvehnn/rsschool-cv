@@ -1,93 +1,163 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CV_Shashina_Elena</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-	<div class="central_container" style="width=100%">
-	<div class="fixed_container"><!--центральный контейнер с фиксированной шириной-->
-			<div class="black_sidebar"><!--левая колонка-->
-				<div class="item_container">
-					<img id="avatar" src="img\avatar.png" alt="avatar">
-					<h2 class="items_beige">CONTACT</h2>
-					<p class="white_text">+7 (960) 565 34 19<br>
-						elvehnn@yandex.ru<br>
-						Github account: Elvehnn<br><br>
-					</p>
-				</div>
-					<h2 class="items_beige">SKILLS</h2>
-					<p class="white_text">HTML, CSS, JS - <i>basics</i><br>
-						COREL DRAW, PHOTOSHOP, INDESIGN - <i>professional</i><br>
-						ILLUSTRATOR - <i>medium</i><br><br>
-					</p>
-					<h2 class="items_beige">EDUCATION</h2>
-					<p class="white_text">CAD engineer (2003)<br>
-					Ryazan State Radio Engineering University<br>
-					</p>
-					<p class="white_text" style="color: rgb(255,236,177);">
-						2003 <br><br>
-					</p>
-					<h2 class="items_beige">COMPLEMENTARY 
-						EDUCATION</h2>
-					<p class="white_text">
-						The basics of HTML and CSS online course, 
-						<i>Netology.</i><br>
-						Web layout for beginners, the basics of JS. 
-						<i>Skillbox.</i><br>
-					</p>
-					<p class="white_text" style="color: rgb(255,236,177);">
-						2020 <br><br>
-					<h2 class="items_beige">LANGUAGES</h2>
-					<p class="white_text">English – А2.
-					</p>
-					<br><br>
-			</div>		
-			
-			<div class="right_column"><!--левая колонка-->
-				<h1>ELENA SHASHINA</h1>
-				<p style="color: rgb(114,114,114); font-size: 20; font-weight: 600; margin-top: 5px;"> Junior Frontend Developer/Intern</p>
-				<h2 class="items_grey">PROFILE</h2>
-				<p class="grey_text">Looking for an entry-level position in a company to improve my skills and help with the timely completion of projects.<br>
-				</p>
-				<ul class="grey_text">
-					<li>Good team player, as well as solo design task performer who is committed to delivering top results on time. </li>
-					<li>Diligence for keeping clients satisfied with each project. </li>
-					<li>Able to quite quickly learn new skills, technologies and applications.</li>
-					<li>Able to analyze tasks, perform decomposition, organize execution, allocate resources and make urgent decisions.</li>
-				</ul> <br>
-				<h2 class="items_grey">EXPERIENCE</h2>
-				<p class="grey_text">
-					<b>Politech Ltd, Ryazan</b><br>
-					2018-2020   Head of Design and prepress department <br>
-					2016-2018   Senior of Design and prepress department<br> 
-					2004-2016   Designer and prepress specialist<br>
-				</p>
-				<ul class="grey_text">
-					<li>ensuring the department functioning ( 7 people);</li>
-					<li>improving the department efficiency and the company printing direction;</li>
-					<li>art-director;</li>
-					<li>training and certification of employees;</li>
-					<li>design print and souvenir products using a brand book;</li>
-					<li>have got an experience in creating presentations, infographics, developing technological instructions, and copywriting.</li>
-				</ul> 
-				<p class="grey_text">Design portfolio: <a href="https://www.behance.net/elvehnnd813" target="_blank"><img src="img\logo_behance.png" width="20px" 
-					 alt="Behance.net/elvehnnd813"></a><br><br>
-				</p>
-				<h2 class="items_grey">ACHIEVEMENTS</h2>
-				<ul class="grey_text">
-					<li>ensuring the department functioning ( 7 people);</li>
-					<li>improving the department efficiency and the company printing direction;</li>
-					<li>art-director;</li>
-					<li>training and certification of employees;</li>
-					<li>design print and souvenir products using a brand book;</li>
-					<li>have got an experience in creating presentations, infographics, developing technological instructions, and copywriting.</li>
-				</ul> 
-			</div>
-		</div>
-	</div>
-	<div id="footer"></div>
-</body>
+<html lang="en" class="sr wf-roboto-n3-active wf-roboto-n4-active wf-roboto-n5-active wf-active">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>[Elena Shashina] | Frontend developer</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="visually-hidden">Elena Shashina Frontend Developer</h1>
+            <div class="wrapper header__wrapper">
+                <a href="" class="logo">EA</a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li><a class="menu__link" href="">About me</a></li>
+                        <li><a class="menu__link" href="#skills">Skills</a></li>
+                        <li><a class="menu__link" href="#projects">Projects</a></li>
+                        <li><a class="menu__link" href="#contacts">Contact me</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="about">
+                <div class="wrapper">
+                    <h2 class="h2_white">About me</h2>
+                    <div class="about__wrapper">
+                        <div >
+                            <img class="about__image" src="img/avatar.png" alt="avatar">
+                        </div>
+                        <div class="about__content">
+                            <p class="text">Hi! My name is Elena Shashina. I'm looking for an entry-level position in a company to improve my skills and help with the timely completion of projects.<br>
+                            </p>
+                            <!-- <ul class="text list">
+                                <li>Good team player, as well as solo task performer who is committed to delivering top results on time. </li>
+                                <li>Diligence for keeping clients satisfied with each project. </li>
+                                <li>Able to quite quickly learn new skills, technologies and applications.</li>
+                                <li>Able to analyze tasks, perform decomposition, organize execution, allocate resources and make urgent decisions.</li>
+                            </ul> <br><br> -->
+                            <p class="text text_caps">Education</p>
+                            <ul class="text list">
+                                <li>CAD engineer<br>
+                                   <i>Ryazan State Radio Engineering University, 2003</i></li>
+                                <li>The basics of HTML and CSS online course. 
+                                    <i>Netology, 2020.</i></li>
+                                <li>	Web layout for beginners, the basics of Javascript. 
+                                    <i>Skillbox, 2020.</i></li>
+                                <li>Frontend Development, basics.
+                                    <i>Yandex Praktikum, 2020.</i></li>
+                            </ul> 
+                            <p class="text">English – B1.</p>
+                            <br>
+                            <a href="https://elenashashina.netlify.app/" target="_blank" class="resume-button">View resume</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <div class="wrapper">
+                    <h2>Technical Skills</h2>
+                    <div class="skills__wrapper">
+                      <div class="skills__container">
+                            <i class="devicon-html5-plain"></i>
+                            <p>HTML5</p>
+                        </div>
+                        <div class="skills__container">
+                            <i class="devicon-css3-plain"></i>
+                            <p>CSS3</p>
+                        </div>
+                        <div class="skills__container">
+                            <i class="devicon-sass-original non-active"></i>
+                            <p>Sass</p>
+                        </div>
+                        <div class="skills__container">
+                            <i class="devicon-javascript-plain"></i>  
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="skills__container">
+                            <i class="devicon-git-plain"></i>    
+                            <p>Git</p>
+                        </div>
+                          <div class="skills__container">
+                            <i class="devicon-jquery-plain non-active"></i>
+                            <p>jQuery</p>
+                        </div>
+                        <div class="skills__container">
+                            <i class="devicon-react-original non-active"></i>
+                            <p>React</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="projects" id="projects">
+                <div class="wrapper">
+                    <h2>Projects</h2>
+                    <div class="wrapper__3-column">
+                        <div class="project">
+                            <div class="img-container">
+                                <a href="https://elvehnn-webdev.netlify.app" target="_blank">
+                                    <img class="project__img" src="img/webdev_icon.jpg" alt="WebDev">
+                                </a> 
+                            </div>
+                            <h3 class="project__title">Webdev page layout</h3>
+                            <p class="project__description">Webdev page layout PixelPerfect according <a href="https://www.figma.com/file/2Zev0HVCKABbZoAsuWTdcD/webdev_newVersion(19.09)?node-id=1%3A5" target="_blank">Figma's project</a>                              </p>
+                            <div class="button-container">
+								<a class="project__button project__button_live" href="https://elvehnn-webdev.netlify.app" target="_blank">Site</a>
+								<a class="project__button project__button_code" href="https://github.com/Elvehnn/Webdev" target="_blank">GitHub</a>
+							</div>    
+                        </div>
+                        <div class="project">
+                            <div class="img-container">
+                                <a href="https://elvehnn-calculator.netlify.app" target="_blank">
+                                    <img class="project__img" src="img/calc_icon.jpg" alt="Calculator">
+                                </a> 
+                            </div>
+                            <h3 class="project__title">Calculator's improvement</h3>
+                            <p class="project__description">Improvement: root of any degree, raising to any degree, working with decimal and negative numbers. Detailed task on GitHub 
+
+                            </p>
+                            <div class="button-container">
+								<a class="project__button project__button_live" href="https://elvehnn-calculator.netlify.app" target="_blank">Site</a>
+								<a class="project__button project__button_code" href="https://github.com/Elvehnn/Calculator" target="_blank">GitHub</a>
+							</div>    
+                        </div>
+                        <div class="project">
+                            <div class="img-container">
+                                <a href="https://rolling-scopes-school.github.io/elvehnn-JS2020Q3/shelter/pages/main/main.html" target="_blank">
+                                    <img class="project__img" src="img/shelter_icon.jpg" alt="Shelter">
+                                </a> 
+                            </div>
+                            <h3 class="project__title">Shelter</h3>
+                            <p class="project__description">Adaptive layout with interactive elements in JS (2 pages with slider and popup-window on card's click)
+
+                            </p>
+                            <div class="button-container">
+								<a class="project__button project__button_live" href="https://rolling-scopes-school.github.io/elvehnn-JS2020Q3/shelter/pages/main/main.html" target="_blank">Site</a>
+								<a class="project__button project__button_code" href="https://github.com/Elvehnn/Shelter/tree/shelter" target="_blank">GitHub</a>
+							</div>    
+                        </div>
+                        
+                    </div>
+                </div>
+                
+
+            </section>
+            
+        </main>
+        <footer class="contacts" id="contacts">
+            <div class="wrapper">
+                <h2 class="h2_white">Contact me</h2>
+                <ul>
+                    <li class="contacts__item">+7 (960) 565 34 19</li>
+                    <li class="contacts__item"><img src="img/mnu-items-divider.png" alt=""></li>
+                    <li class="contacts__item">elvehnn@yandex.ru</li>
+                    <li class="contacts__item"><img src="img/mnu-items-divider.png" alt=""></li>
+                    <li class="contacts__item">Github account:&nbsp;<a class="a_white" href="https://github.com/Elvehnn?tab=repositories" target="_blank"> Elvehnn</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
