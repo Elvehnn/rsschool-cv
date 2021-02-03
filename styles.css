@@ -77,11 +77,13 @@ a:hover {
     height: 60px;
     padding: 40px;
     background-color: rgba(255,255,255,0.2);
-       
 }
 .header__wrapper {
     flex-direction: row;
     justify-content: space-between;
+}
+.logo__image {
+    width: 150px;
 }
 .menu {
     display: inline-block;
