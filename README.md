@@ -1,1 +1,1 @@
-https://elvehnn.github.io/rsschool-cv/index
+https://Elvehnn.github.io/rsschool-cv/index
