@@ -2,6 +2,9 @@
 * {
     box-sizing: border-box;
   }
+html {
+    font-size: 10px;
+  }
 body {
     font-family: Roboto, Helvetica, sans-serif;
     margin: 0;
@@ -15,8 +18,8 @@ h2 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 72px;
+    font-size: 4.8rem;
+    line-height: 150%;
     letter-spacing: 2px;
     color:#2C3E50; 
     /* text-transform: uppercase; */
@@ -30,7 +33,7 @@ h3 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 130%;
     color:#2C3E50; 
     margin-top: 15px;
@@ -53,7 +56,7 @@ a {
     text-decoration: none;
     font-style: normal;
     font-family: Roboto,sans-serif;
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #2C3E50;
     font-weight: bold;
 }
@@ -96,7 +99,7 @@ a:hover {
   align-items: center;
   list-style-type: none;
 }
-.menu__link {
+.menu__link, .blue-text {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -183,11 +186,19 @@ a:hover {
 }
 .skills__container i {
     display: flex;
-    font-size: 4rem;
+    font-size: 6.5rem;
     color: #2C3E50;
 }
 i.non-active {
     color: #a5a5a5; 
+}
+.grey-text {
+    color: #a5a5a5; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .projects {
